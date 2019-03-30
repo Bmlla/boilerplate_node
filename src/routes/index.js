@@ -3,6 +3,6 @@ const router = express.Router();
 const controller = require('../controllers/padraoController')
 
 
-router.get('/get', controller.get);
+router.get('/weather', controller.get);
 
 module.exports = router;
